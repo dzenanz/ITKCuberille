@@ -255,7 +255,7 @@ CuberilleTest01(int argc, char * argv[])
 {
 
   constexpr unsigned int Dimension = 3;
-  using PixelType = double; // unsigned char;
+  using PixelType = float;
   using CoordinateType = double;
   using QEMeshType = itk::QuadEdgeMesh<CoordinateType, Dimension>;
   using MeshType = itk::Mesh<CoordinateType, Dimension>;
